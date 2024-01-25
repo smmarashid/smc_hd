@@ -10,7 +10,7 @@ font_import()
 fonts()
 
 ### Load the final, merged dataset (here, for tau=1, lambda=0)
-FinalDF <- read.csv("C:/Users/sanji/Downloads/Thesis/PLOTS/FinalDF_10")
+FinalDF <- read.csv("FinalDF_10")
 FinalDF$d <- as.factor(FinalDF$d)
 FinalDF$N <- as.factor(FinalDF$N)
 FinalDF$run <- as.factor(FinalDF$run)
