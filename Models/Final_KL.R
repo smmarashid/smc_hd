@@ -1,3 +1,4 @@
+# Load necessary libraries
 library(dplyr)
 library(ggplot2)
 library(scales)
@@ -6,8 +7,8 @@ library(ggtext)
 library(extrafont)
 require(gridExtra)
 library(cowplot)
-font_import()
-fonts()
+#font_import() ### for special fonts in the plot
+#fonts()
 
 ### Load the final, merged dataset (here, for tau=1, lambda=0)
 FinalDF <- read.csv("FinalDF_10")
